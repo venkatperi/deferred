@@ -1,0 +1,32 @@
+{
+  "name": "@venkatperi/deferred",
+  "version": "1.0.0",
+  "description": "A promise wrapper",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "promise",
+    "deferred"
+  ],
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "author": "Venkat Peri <venkatperi@gmail.com> (http://www.vperi.com/)",
+  "license": "MIT"
+}
